@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.test.notifier" name="Notifier" version="0.1" provider-name="kodiful">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Notification Test</summary>
+    <summary lang="ja_JP">通知テスト</summary>
+    <description lang="en_GB">Notification Test</description>
+    <description lang="ja_JP">通知テスト</description>
+    <disclaimer lang="en_GB">Nofitification Test</disclaimer>
+    <disclaimer lang="ja_JP">通知テスト</disclaimer>
+    <website>http://kodiful.com/</website>
+  </extension>
+</addon>
