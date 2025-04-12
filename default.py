@@ -9,7 +9,6 @@ from urllib.parse import parse_qs
 import urllib.request
 import urllib.parse
 
-import xbmc
 import xbmcaddon
 
 ADDON = xbmcaddon.Addon().getSetting

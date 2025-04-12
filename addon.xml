@@ -4,9 +4,12 @@
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
     <platform>all</platform>
     <summary lang="en_GB">Notification Test</summary>
     <summary lang="ja_JP">通知テスト</summary>
@@ -15,5 +18,6 @@
     <disclaimer lang="en_GB">Nofitification Test</disclaimer>
     <disclaimer lang="ja_JP">通知テスト</disclaimer>
     <website>http://kodiful.com/</website>
+    <source></source>
   </extension>
 </addon>
